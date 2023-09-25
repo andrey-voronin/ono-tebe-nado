@@ -4,10 +4,55 @@ body {
     font-weight: 400;
 }
 
-.header {
 
+.link_active {
+    text-decoration: none;
 }
 
+.header {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    padding: 96px 51px 96px 49px;
+}
+
+.header__links {
+    font-size: 18px;
+    margin-right: 209px;
+}
+
+.header__links-list
+{
+    display: flex;
+    gap: 20px;
+    list-style: circle;
+}
+
+.header__links-list-item
+{
+    text-transform: lowercase;
+}
+
+.header__logo {
+    display: block;
+    width: 148px;
+    height: 105px; 
+}
+
+.address {
+    font-size: 18px;
+    line-height: 24px;
+    margin-left: 355px;
+}
+
+.address__line {
+    white-space: nowrap;
+}
+
+.address__link {
+    display: block;
+}
+      
 .cover {
 
 }
