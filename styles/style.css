@@ -65,8 +65,8 @@ body {
 
 .header__logo {
     display: block;
-    min-width: 148px;
-    min-height: 105px;
+    max-width: 148px;
+    max-height: 105px;
     padding: 4px;
 }
 
