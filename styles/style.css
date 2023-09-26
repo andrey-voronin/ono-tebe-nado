@@ -20,6 +20,10 @@ body {
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0 , 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 20;
 }
 
 .aligned-text {
@@ -65,8 +69,8 @@ body {
 
 .header__logo {
     display: block;
-    max-width: 148px;
-    max-height: 105px;
+    width: 148px;
+    height: 105px;
     padding: 4px;
 }
 
@@ -89,6 +93,8 @@ body {
     background-image: url(../images/cover.jpg);
     background-position: 0px -20px;
     background-size: 100%;
+    position: relative;
+    z-index: 10;
 }
 
 .cover__title {
@@ -100,6 +106,8 @@ body {
     line-height: 114%;
     letter-spacing: 30px;
     text-transform: uppercase;
+    position: relative;
+    z-index: 30;
 }
 
 .cover__extended-line-height {
@@ -111,6 +119,8 @@ body {
     align-items: center;
     gap: 78px;
     padding: 0px 50px 62px 422px;
+    position: relative;
+    z-index: 30;    
 }
 
 .cover__description-text {
@@ -152,20 +162,30 @@ body {
     list-style: none;
 }
 
+.lots__card-item {
+    position: relative;
+    width: 430px;
+    height: 450px;    
+}
+
 .card-link {
     display: block;
     text-decoration: none;
+    width: 100%;
+    height: 100%;    
 }
 
 .card {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 430px;
-    height: 450px;
+    width: 100%;
+    height: 100%;
     padding: 50px 40px;
     color: #fff;
     background-size: 100%;
+    position: relative;
+    z-index: 10;
 }
 
 .card__title {
@@ -174,10 +194,14 @@ body {
     line-height: 120%;
     text-decoration: underline;
     text-transform: uppercase;
+    position: relative;
+    z-index: 30;        
 }
 
 .card__text {
     line-height: 120%;
+    position: relative;
+    z-index: 30;    
 }
 
 .card_type_film {
@@ -269,6 +293,6 @@ body {
 
 .footer__social-link {
     display: block;
-    max-width: 48px;
-    max-height: 48px;
+    width: 48px;
+    height: 48px;
 }
