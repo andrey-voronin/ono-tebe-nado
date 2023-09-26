@@ -120,7 +120,7 @@ body {
     gap: 78px;
     padding: 0px 50px 62px 422px;
     position: relative;
-    z-index: 30;    
+    z-index: 30;
 }
 
 .cover__description-text {
@@ -165,14 +165,14 @@ body {
 .lots__card-item {
     position: relative;
     width: 430px;
-    height: 450px;    
+    height: 450px;
 }
 
 .card-link {
     display: block;
     text-decoration: none;
     width: 100%;
-    height: 100%;    
+    height: 100%;
 }
 
 .card {
@@ -195,13 +195,13 @@ body {
     text-decoration: underline;
     text-transform: uppercase;
     position: relative;
-    z-index: 30;        
+    z-index: 30;
 }
 
 .card__text {
     line-height: 120%;
     position: relative;
-    z-index: 30;    
+    z-index: 30;
 }
 
 .card_type_film {
