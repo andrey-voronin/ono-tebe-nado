@@ -51,7 +51,7 @@ body {
     grid-template-columns: 44.5% 37.5% auto;
     place-items: center start;
     align-items: center;
-    padding: 92px 50px 96px 50px;
+    padding: 92px 50px 92px 50px;
 }
 
 .header__links {
@@ -69,9 +69,12 @@ body {
 
 .header__logo {
     display: block;
+    padding-bottom: 4px;
+}
+
+.header__logo-image {
     width: 148px;
     height: 105px;
-    padding: 4px;
 }
 
 .address {
