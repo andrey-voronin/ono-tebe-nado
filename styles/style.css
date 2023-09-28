@@ -17,13 +17,13 @@ body {
 }
 
 .overlay {
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0 , 0, 0.6);
     position: absolute;
     top: 0;
     left: 0;
     z-index: 20;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0 , 0, 0.6);
 }
 
 .aligned-text {
@@ -78,10 +78,10 @@ body {
 }
 
 .address {
-    font-size: 18px;
-    line-height: 135%;
     max-width: 240px;
+    font-size: 18px;
     font-style: normal;
+    line-height: 135%;
 }
 
 .address__link {
@@ -89,13 +89,15 @@ body {
 }
 
 .cover {
-    width: 1440px;
-    background: 0 -20px / cover url(../images/cover.jpg);
     position: relative;
     z-index: 10;
+    width: 1440px;
+    background: 0 -20px / cover url(../images/cover.jpg);
 }
 
 .cover__title {
+    position: relative;
+    z-index: 30;
     display: block;
     padding: 165px 50px 135px 50px;
     color: #fff;
@@ -104,8 +106,6 @@ body {
     line-height: 114%;
     letter-spacing: 30px;
     text-transform: uppercase;
-    position: relative;
-    z-index: 30;
 }
 
 .cover__extended-line-height {
@@ -113,14 +113,14 @@ body {
 }
 
 .cover__description {
+    position: relative;
+    z-index: 30;
     display: flex;
-    align-items: center;
     justify-content: flex-end;
+    align-items: center;
     gap: 78px;
     padding-right: 50px;
     padding-bottom: 50px;
-    position: relative;
-    z-index: 30;
 }
 
 .cover__description-text {
@@ -164,12 +164,14 @@ body {
 
 .card-link {
     display: block;
-    text-decoration: none;
     width: 100%;
     height: 100%;
+    text-decoration: none;
 }
 
 .card {
+    position: relative;
+    z-index: 10;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -178,24 +180,22 @@ body {
     padding: 50px 40px;
     color: #fff;
     background-size: 100%;
-    position: relative;
-    z-index: 10;
 }
 
 .card__title {
+    position: relative;
+    z-index: 30;
     font-weight: 700;
     font-size: 22px;
     line-height: 120%;
     text-decoration: underline;
     text-transform: uppercase;
-    position: relative;
-    z-index: 30;
 }
 
 .card__text {
-    line-height: 120%;
     position: relative;
     z-index: 30;
+    line-height: 120%;
 }
 
 .card_type_film {
