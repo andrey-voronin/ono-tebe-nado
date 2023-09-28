@@ -77,14 +77,13 @@ body {
 .address {
     font-size: 18px;
     line-height: 135%;
-}
-
-.address__line {
-    white-space: nowrap;
+    max-width: 240px;
+    font-style: normal;
 }
 
 .address__link {
     display: block;
+    white-space: nowrap;    
 }
       
 .cover {
