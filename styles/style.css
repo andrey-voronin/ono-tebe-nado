@@ -255,7 +255,7 @@ body {
     margin-bottom: 25px;
 }
 
-.no-bottom-margin {
+.about__text:last-child {
     margin-bottom: 0;
 }
 
